@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using Newtonsoft.Json;
 
-namespace Pickaxe.MinecraftData.Parser
+namespace Pickaxe.MinecraftData.Reader
 {
     [TypeConverter(typeof(MinecraftVersionTypeConverter))]
     public struct MinecraftVersion : IEquatable<MinecraftVersion>

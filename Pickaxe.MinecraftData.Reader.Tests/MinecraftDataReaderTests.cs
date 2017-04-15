@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Pickaxe.MinecraftData.Parser.Tests.Helpers;
+using Pickaxe.MinecraftData.Reader.Tests.Helpers;
 using Xunit;
 
-namespace Pickaxe.MinecraftData.Parser.Tests
+namespace Pickaxe.MinecraftData.Reader.Tests
 {
     public class MinecraftDataReaderTests
     {

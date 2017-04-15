@@ -1,4 +1,4 @@
-﻿namespace Pickaxe.MinecraftData.Parser
+﻿namespace Pickaxe.MinecraftData..Reader
 {
     public enum MinecraftPlatform
     {

@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Xunit;
 
-namespace Pickaxe.MinecraftData.Parser.Tests
+namespace Pickaxe.MinecraftData.Reader.Tests
 {
     public class MinecraftVersionTests
     {

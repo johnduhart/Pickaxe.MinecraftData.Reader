@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Pickaxe.MinecraftData.Parser.Exceptions
+namespace Pickaxe.MinecraftData.Reader.Exceptions
 {
     [Serializable]
     public class InvalidDataPathException : Exception

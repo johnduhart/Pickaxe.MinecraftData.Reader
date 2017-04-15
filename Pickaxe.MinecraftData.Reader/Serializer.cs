@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Pickaxe.MinecraftData.Parser
+namespace Pickaxe.MinecraftData.Reader
 {
     internal static class Serializer
     {

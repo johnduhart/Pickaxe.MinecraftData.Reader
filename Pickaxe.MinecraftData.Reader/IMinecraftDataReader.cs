@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Pickaxe.MinecraftData.Parser
+namespace Pickaxe.MinecraftData.Reader
 {
     public interface IMinecraftDataReader
     {

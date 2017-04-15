@@ -1,8 +1,8 @@
 ﻿using System;
 using System.IO;
-using Pickaxe.MinecraftData.Parser.Exceptions;
+using Pickaxe.MinecraftData.Reader.Exceptions;
 
-namespace Pickaxe.MinecraftData.Parser
+namespace Pickaxe.MinecraftData.Reader
 {
     internal static class PathConstants
     {

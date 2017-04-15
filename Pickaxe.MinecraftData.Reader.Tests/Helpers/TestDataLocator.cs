@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace Pickaxe.MinecraftData.Parser.Tests.Helpers
+namespace Pickaxe.MinecraftData.Reader.Tests.Helpers
 {
     internal static class TestDataLocator
     {

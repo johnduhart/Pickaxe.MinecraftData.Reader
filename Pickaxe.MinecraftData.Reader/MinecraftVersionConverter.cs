@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace Pickaxe.MinecraftData.Parser
+namespace Pickaxe.MinecraftData.Reader
 {
     internal class MinecraftVersionConverter : JsonConverter
     {

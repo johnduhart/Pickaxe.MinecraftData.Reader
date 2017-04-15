@@ -1,7 +1,7 @@
-using Pickaxe.MinecraftData.Parser.Tests.Helpers;
+using Pickaxe.MinecraftData.Reader.Tests.Helpers;
 using Xunit;
 
-namespace Pickaxe.MinecraftData.Parser.Tests
+namespace Pickaxe.MinecraftData.Reader.Tests
 {
     public class SanityTests
     {

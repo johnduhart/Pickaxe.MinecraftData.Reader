@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using Pickaxe.MinecraftData.Parser.Exceptions;
-using Pickaxe.MinecraftData.Parser.Tests.Helpers;
+using Pickaxe.MinecraftData.Reader.Exceptions;
+using Pickaxe.MinecraftData.Reader.Tests.Helpers;
 using Xunit;
 
-namespace Pickaxe.MinecraftData.Parser.Tests
+namespace Pickaxe.MinecraftData.Reader.Tests
 {
     public class DataFolderHelperTests
     {
