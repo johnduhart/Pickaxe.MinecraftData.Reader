@@ -1,4 +1,4 @@
-﻿namespace Pickaxe.MinecraftData..Reader
+﻿namespace Pickaxe.MinecraftData.Reader
 {
     public class VersionFiles
     {
