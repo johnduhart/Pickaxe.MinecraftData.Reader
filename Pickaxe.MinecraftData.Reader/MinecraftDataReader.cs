@@ -38,5 +38,18 @@ namespace Pickaxe.MinecraftData.Reader
                     throw new ArgumentOutOfRangeException(nameof(minecraftPlatform), minecraftPlatform, null);
             }
         }
+
+        public Task<MinecraftVersion> GetLatestVersionForPlayformAsync(MinecraftPlatform minecraftPlatform)
+        {
+            switch (minecraftPlatform)
+            {
+                case MinecraftPlatform.Pc:
+                    return Task.FromResult(new MinecraftVersion("1.11.2"));
+                case MinecraftPlatform.PocketEdition:
+                    return Task.FromResult(new MinecraftVersion("1.0"));
+                default:
+                    throw new ArgumentOutOfRangeException(nameof(minecraftPlatform), minecraftPlatform, null);
+            }
+        }
     }
 }

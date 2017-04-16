@@ -24,5 +24,7 @@ namespace Pickaxe.MinecraftData.Reader.Tests
             Assert.NotEmpty(result);
             Assert.Contains(new MinecraftVersion("1.11.2"), result);
         }
+
+        //
     }
 }
