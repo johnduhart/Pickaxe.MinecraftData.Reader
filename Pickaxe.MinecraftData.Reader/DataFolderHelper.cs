@@ -9,6 +9,9 @@ namespace Pickaxe.MinecraftData.Reader
         public const string DataFolder = "data";
 
         public const string DataPaths = "dataPaths.json";
+
+        public const string Biomes = "biomes.json";
+        public const string Blocks = "blocks.json";
     }
 
     internal static class DataFolderHelper

@@ -7,9 +7,16 @@ namespace Pickaxe.MinecraftData.Reader
     {
         Task<IEnumerable<MinecraftVersion>> GetVersionsForPlatformAsync(MinecraftPlatform minecraftPlatform);
 
-        Task<MinecraftVersion> GetLatestVersionForPlayformAsync(MinecraftPlatform minecraftPlatform);
+        Task<MinecraftVersion> GetLatestVersionForPlatformAsync(MinecraftPlatform minecraftPlatform);
 
-        //Task<>
+        /// <summary>
+        /// Returns information about the minecraft version and patform specified
+        /// </summary>
+        /// <param name="minecraftPlatform">The Minecraft platform.</param>
+        /// <param name="version">The desired version.</param>
+        /// <returns>Definitions for the request version/platform</returns>
+        Task<VersionDefinition> GetDefinitionForVersionAsnyc(MinecraftPlatform minecraftPlatform,
+            MinecraftVersion version);
     }
 
 
