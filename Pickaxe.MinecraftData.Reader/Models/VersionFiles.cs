@@ -5,7 +5,7 @@
         public string Blocks { get; set; }
         public string Biomes { get; set; }
         public string Effects { get; set; }
-        public string Enhancements { get; set; }
+        public string Enchantments { get; set; }
         public string Items { get; set; }
         public string Recipes { get; set; }
         public string Instruments { get; set; }
