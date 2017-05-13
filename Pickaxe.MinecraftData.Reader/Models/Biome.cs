@@ -1,6 +1,4 @@
-﻿using System.Reflection;
-
-namespace Pickaxe.MinecraftData.Reader
+﻿namespace Pickaxe.MinecraftData.Reader
 {
     public class Biome
     {
@@ -22,11 +20,11 @@ namespace Pickaxe.MinecraftData.Reader
         /// <summary>
         /// How much rain there is in a biome
         /// </summary>
-        public float Rainfall { get; set; }
+        public decimal Rainfall { get; set; }
 
         /// <summary>
         /// An indicator for the temperature in a biome
         /// </summary>
-        public float Temperature { get; set; }
+        public decimal Temperature { get; set; }
     }
 }

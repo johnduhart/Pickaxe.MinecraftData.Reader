@@ -49,7 +49,6 @@ namespace Pickaxe.MinecraftData.Reader
         /// </summary>
         public IDictionary<int, bool> HarvestTools { get; set; }
 
-        
         public ICollection<BlockVariation> Variations { get; set; }
         public ICollection<BlockDrop> Drops { get; set; }
 

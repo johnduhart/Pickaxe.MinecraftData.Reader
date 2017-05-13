@@ -6,6 +6,6 @@ namespace Pickaxe.MinecraftData.Reader
     public class ItemReference
     {
         public int Id { get; set; }
-        public int? Metadata { get; set; } 
+        public int? Metadata { get; set; }
     }
 }
